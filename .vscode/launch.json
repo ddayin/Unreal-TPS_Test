@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "TPS_Test (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TPS_Test Win64 Debug Build",
+			"program": "D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TPS_Test (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TPS_Test Win64 DebugGame Build",
+			"program": "D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TPS_Test (Development)",
+			"request": "launch",
+			"preLaunchTask": "TPS_Test Win64 Development Build",
+			"program": "D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\Binaries\\Win64\\UE4.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TPS_Test (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "TPS_Test Win64 Shipping Build",
+			"program": "D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TPS_Test (Test)",
+			"request": "launch",
+			"preLaunchTask": "TPS_Test Win64 Test Build",
+			"program": "D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\Binaries\\Win64\\UE4-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TPS_TestEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "TPS_TestEditor Win64 Debug Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\TPS_Test.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TPS_TestEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "TPS_TestEditor Win64 DebugGame Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+			"args": [
+				"D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\TPS_Test.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "TPS_TestEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "TPS_TestEditor Win64 Development Build",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\TPS_Test.uproject"
+			],
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "C:\\Program Files\\Epic Games\\UE_4.24\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\ProjectUnreal\\Unreal-TPS-Portfolio\\TPS_Test.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "C:\\Program Files\\Epic Games\\UE_4.24"
+		}
+	]
+}

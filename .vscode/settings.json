@@ -1,0 +1,10 @@
+{
+	"files.exclude": {
+		"D:/ProjectUnreal/Unreal-TPS-Portfolio/.git": true,
+		"D:/ProjectUnreal/Unreal-TPS-Portfolio/.vs": true,
+		"D:/ProjectUnreal/Unreal-TPS-Portfolio/.vscode": true,
+		"D:/ProjectUnreal/Unreal-TPS-Portfolio/Content": true,
+		"D:/ProjectUnreal/Unreal-TPS-Portfolio/Intermediate": true,
+		"D:/ProjectUnreal/Unreal-TPS-Portfolio/Saved": true
+	}
+}
