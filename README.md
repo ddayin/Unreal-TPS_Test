@@ -1,10 +1,10 @@
 # Unreal-TPS-Portfolio
-언리얼 엔진을 이용하여 TPS 장르의 게임을 개발합니다.
+This portfolio is to develop TPS game with Unreal engine.
 
-[목표]
-- 언리얼 엔진 학습
+[Goal]
+- Learn how to use Unreal engine
 
 
-[개발환경]
+[Development Environment]
 - Unreal Engine 4.24.3
 - Visual Studio Code
